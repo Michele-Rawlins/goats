@@ -34,8 +34,7 @@ class App extends React.Component {
      return (
       <div className="App">
         <h1>GOAT YOGA LTD</h1>
-        <GoatCoral goats={goats} useAGoat={this.useAGoat}/>
-        <GoatCoral goats={goats} freeAGoat={this.freeAGoat}/>
+        <GoatCoral goats={goats} useAGoat={this.useAGoat} freeAGoat={this.freeAGoat}/>
       </div>
      );
    }
